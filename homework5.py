@@ -1,6 +1,6 @@
 # пункт 2
 immutable_var = (1, 2, 3, 'красный', True, [1, 2, 3, 4, 5])
-print(immutable_var)
+print('Immutable tuple: ', str(immutable_var))
 
 # пункт 3
 # immutable_var[5][0] = 3 - в данном случае операция изменения сработает корректно, т.к. изменение идет внутри списка (list), расположенного внутри кортежа
@@ -10,4 +10,4 @@ print(immutable_var)
 mutable_list = [1, 2, 3]
 mutable_list[0] = 'один'
 mutable_list[2] = True
-print(mutable_list)
+print('Mutable list: ', str(mutable_list))
